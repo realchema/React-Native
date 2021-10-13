@@ -5,7 +5,8 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 export default function App() {
   const [name, setName] = useState('jose')
   const clickHandler = () => {
-    setName('cun-li')
+    setName('jose2')
+    setPerson({name: 'luigi', age: 45});
   } 
   return (
     <View style={styles.container}>
